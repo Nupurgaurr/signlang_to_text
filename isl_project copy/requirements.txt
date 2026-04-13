@@ -1,0 +1,30 @@
+# ── Core ML (Apple Silicon: M1/M2/M3 Macs) ─────────────────────────────
+tensorflow-macos==2.13.0
+tensorflow-metal==1.0.1
+
+# ── Computer Vision ───────────────────────────────────────────────────
+opencv-python==4.8.1.78
+mediapipe==0.10.7
+
+# ── Streamlit + WebRTC ────────────────────────────────────────────────
+streamlit==1.28.0
+# streamlit-webrtc==0.47.1# av==10.0.0
+# ── Data / ML utilities ───────────────────────────────────────────────
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.0
+matplotlib==3.7.2
+Pillow==10.0.0
+tqdm==4.66.1
+
+# ── Dataset download ──────────────────────────────────────────────────
+kaggle==1.5.16
+
+# ── Text to Speech ────────────────────────────────────────────────────
+pyttsx3==2.90
+gTTS==2.4.0
+pygame==2.5.2
+
+# ── Spell correction ──────────────────────────────────────────────────
+pyenchant==3.2.2
+
