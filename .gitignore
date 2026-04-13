@@ -1,0 +1,87 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+venv/
+venv*/
+.venv/
+env/
+ENV/
+.env
+
+# ── Dataset (large files — download via dataset_loader.py) ────────────────────
+data/raw/
+data/train/
+data/test/
+data/processed/
+*.zip
+*.tar.gz
+*.tar
+
+# ── Trained models (large binary files) ───────────────────────────────────────
+models/*.h5
+models/*.keras
+models/*.pb
+models/*.tflite
+# keep label_map.json tracked
+!models/label_map.json
+!models/README.txt
+
+# ── Training artefacts ─────────────────────────────────────────────────────────
+models/*_training_curves.png
+models/checkpoint/
+*.ckpt
+*.index
+*.data-00000-of-00001
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Kaggle credentials (NEVER commit these) ───────────────────────────────────
+kaggle.json
+.kaggle/
+
+# ── Jupyter notebooks checkpoints ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# ── IDE / editors ─────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Numpy / processed data ────────────────────────────────────────────────────
+*.npy
+*.npz
+
+# ── Test / coverage ───────────────────────────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# ── Distribution / build ──────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
